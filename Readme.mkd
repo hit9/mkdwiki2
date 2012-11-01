@@ -1,5 +1,5 @@
-mkdwiki
-=======
+mkdwiki2
+========
 
 Write wiki in Github Favorite Markdown.
 
@@ -11,7 +11,6 @@ Requirements
 
 ```
   markdown2
-  
   pygments
 ```
 
@@ -38,6 +37,11 @@ mkdwiki2 build # build markdown files to html
 
 mkdwiki2 clean # clean cache
 ```
+
+Wiki
+----
+
+[https://github.com/hit9/mkdwiki2/wiki](https://github.com/hit9/mkdwiki2/wiki)
 
 Thanks
 ------

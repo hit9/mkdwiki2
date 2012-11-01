@@ -9,8 +9,9 @@ usage:
   mkdwiki2 clean'''
 
 def color(msg, color):
+	import os
 	colordict = {'red':'\033[91m', 'green':'\033[92m', 'yellow':'\033[93m', 'blue':'\033[94m'}
-	return colordict.get(color, '\033[0m')+msg+'\033[0m'
+	return colordict.get(color, '\033[0m')+msg+'\033[0m' if os.name == 'posix' else msg
 
 def error(msg):
 	print color('[error]', 'red'), msg

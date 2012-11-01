@@ -21,7 +21,11 @@ Install
 ```
 sudo pip install mkdwiki2
 ```
+or 
 
+```
+sudo easy_install mkdwiki2
+```
 Usage
 -----
 

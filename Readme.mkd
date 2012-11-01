@@ -1,0 +1,36 @@
+mkdwiki
+=======
+
+Write wiki in Github Favorite Markdown.
+
+Requirements
+------------
+
+python module:
+
+  markdown2
+  
+  pygments
+
+Install
+-------
+
+sudo pip install mkdwiki2
+
+Usage
+-----
+
+```
+mkdir my_wiki_project && cd my_wiki_project
+
+mkdwiki2 init  # init wiki project
+
+mkdwiki2 build # build markdown files to html
+
+mkdwiki2 clean # clean cache
+```
+
+Thanks
+------
+
+thanks for this project:[markdown2](https://github.com/trentm/python-markdown2)

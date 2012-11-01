@@ -1,0 +1,8 @@
+*.swp
+*.swo
+*.pyc
+test/
+TODO
+mkdwiki2.egg-info/
+build/
+dist/

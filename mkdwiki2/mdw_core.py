@@ -8,6 +8,8 @@ def check_cwd():
 # init a wiki project 
 
 def init():
+	if os.path.exists(mdw.mark_fn):
+		mdw_report.error('This directory has been initialized already!')
 	try:
 		os.mkdir(mdw.src_dirname)
 	except:
@@ -55,7 +57,7 @@ def convert(src_fp, tpl_c):
 	html_root = os.path.relpath(mdw.src_dirname, os.path.normpath(os.path.dirname(src_fp)))
 	
 	# markdown2 convert
-	c = markdown2.markdown(c, extras = ['fenced-code-blocks', 'toc'])
+	c = markdown2.markdown(c, extras = ['fenced-code-blocks', 'toc', 'wiki-tables'])
 	
 	# replace tpl_c
 	tpl_c = tpl_c.replace(u'%title%', title)  

@@ -3,7 +3,7 @@ names for mkdwiki2
 '''
 import os, re
 
-version = '0.1'
+version = '0.2'
 
 mdw_dir_path = os.path.dirname(__file__)
 

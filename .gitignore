@@ -8,3 +8,4 @@ build/
 dist/
 mkdwiki2.wiki/
 test.py
+temp/

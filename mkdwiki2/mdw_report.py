@@ -2,7 +2,9 @@
 This is report module for mkdwiki2
 '''
 def help():
+	import mdw
 	print '''mkdwiki2 -- write wiki in Github Favorite Markdown.
+version:''', mdw.version, '''
 usage:
   mkdwiki2 init 
   mkdwiki2 build

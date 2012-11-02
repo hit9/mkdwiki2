@@ -3,6 +3,8 @@ names for mkdwiki2
 '''
 import os, re
 
+version = '0.1'
+
 mdw_dir_path = os.path.dirname(__file__)
 
 src_dirname = 'src'  # mkd files src directory name

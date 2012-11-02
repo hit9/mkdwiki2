@@ -6,3 +6,5 @@ TODO
 mkdwiki2.egg-info/
 build/
 dist/
+mkdwiki2.wiki/
+test.py

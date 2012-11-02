@@ -18,7 +18,6 @@ def init():
 	shutil.copyfile(os.path.join(mdw.mdw_dir_path, 'tpl.html'), os.path.join(mdw.src_dirname, 'tpl.html'))
 	open(mdw.mark_fn, 'w').write('DO NOT Delete this file.')
 	mdw_report.success('''
-source file extension : .mkd
 source file directory : src
 output html directory : .
 template file : src/tpl.html
@@ -61,7 +60,7 @@ def convert(src_fp, tpl_c):
 	# replace tpl_c
 	tpl_c = tpl_c.replace(u'%title%', title)  
 	tpl_c = tpl_c.replace(u'%html_root%',html_root+u'/')
-	c = c.replace(u'[TOC]', '<div class="toc">'+c.toc_html+'</div>') if c.toc_html else c
+	c = c.replace(u'[TOC]', '<div class="toc">'+c.toc_html+'</div>', 1) if c.toc_html else c
 	c = tpl_c.replace(u'%content%', c)
 	
 	#output

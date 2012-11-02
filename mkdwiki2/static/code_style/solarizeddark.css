@@ -14,15 +14,16 @@ pre {
 	color: #93a1a1;
 	overflow: auto;
 }
-pre code {
-	border:none; 
-	padding:0;
-}
 code{
 	border: 1px solid #CCCCCC;
 	font-family: "Inconsolata-g",Consolas,Liberation Mono,"Courier New", Courier,monospace;
 	font-size:12px;
 	padding: 1px 5px;
+}
+pre code {
+	font-size:14px;
+	border:none; 
+	padding:0;
 }
 .codehilite .hll { background-color: #ffffcc }
 .codehilite  { background: #002b36; color: #839496;border-radius:4px;}

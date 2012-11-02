@@ -3,17 +3,6 @@ mkdwiki2
 
 Write wiki in Github Favorite Markdown.
 
-Requirements
-------------
-1. python version:2.x
-
-2. python modules:
-
-```
-  markdown2
-  pygments
-```
-
 Install
 -------
 
@@ -25,6 +14,14 @@ or
 ```
 sudo easy_install mkdwiki2
 ```
+
+Requirements
+------------
+
+1. python version:2.x
+2. markdown2
+3. pygments
+
 Usage
 -----
 

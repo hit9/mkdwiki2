@@ -24,7 +24,7 @@ def write_cache(d):
 def ifilter(cache_dict, file_path):
     # only when file_path in cache_dict and it is not modefied,filter it out from file_list
     for i in cache_dict.iterkeys():
-        if os.path.samefile(i, file_path) :
+        if os.stat(i) ==  os.stat(file_path):
             if os.stat(file_path).st_mtime == cache_dict[i] :
                 mdw.skip_files[file_path] = 'cached file'
                 return False

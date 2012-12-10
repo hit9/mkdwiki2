@@ -6,7 +6,7 @@ from setuptools import setup
 
 setup(
     name = 'mkdwiki2', 
-    version = '0.2', 
+    version = '0.3', 
     author = 'hit9', 
     author_email = 'nz2324@126.com', 
     description = ("Write wiki in Github Favorite Markdown."),

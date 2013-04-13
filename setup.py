@@ -9,7 +9,7 @@ setup(
     version = '0.3', 
     author = 'hit9', 
     author_email = 'nz2324@126.com', 
-    description = ("Write wiki in Github Favorite Markdown."),
+    description = ("Write wiki in  GitHub Flavored Markdown"),
     license = 'BSD', 
     keywords = 'wiki markdown Github python', 
     packages=['mkdwiki2'],

@@ -1,7 +1,7 @@
 mkdwiki2
 ========
 
-Write wiki in Github Favorite Markdown.
+Write wiki in  GitHub Flavored Markdown
 
 Install
 -------

@@ -1,4 +1,0 @@
-include mkdwiki2/tpl.html
-include mkdwiki2/static/style.css
-include mkdwiki2/static/code_style/*.css
-include mkdwiki2/static/code_style/*.png
